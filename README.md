@@ -14,12 +14,12 @@ and these techniques could stop working.
 
 ## Problem Description and Fixes
 
-For Android mobile application targeting API 29, the Wi-Fi hotspot connection functions are deprecated.
+For Android mobile applications targeting API 29, the Wi-Fi hotspot connection functions are deprecated.
 When using the `NetworkSpecifier` function, API calls to the RICOH THETA fail.
 
 ## Credit and Thanks
 
-This [problem](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127?u=craig) and [solution](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127/6?u=craig) was reported by [saleh](https://community.theta360.guide/u/saleh/summary). Thanks.
+[Problem](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127?u=craig) and [solution](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127/6?u=craig) were reported by [saleh](https://community.theta360.guide/u/saleh/summary). Thanks.
 
 ## Changes to Google Play Store Requirements
 
@@ -34,7 +34,7 @@ If your THETA app uses `WifiNetworkSpecifier` or `WifiNetworkSuggestion` when yo
 
 ![Wi-Fi Restrictions](images/wifi_restrictions.png)
 
-This problem is apparent if your app reduces the Wi-Fi setup steps to enhance the experience for your staff
+Problem is apparent if your app reduces the Wi-Fi setup steps to enhance the experience for your staff
 or customers.
 
 ![Wi-Fi Archiecture](images/network_architecture.png)
