@@ -1,13 +1,13 @@
 # RICOH THETA Wi-Fi API October Community Update
 
-Last updated October 20, 2020.
+_Last updated October 21, 2020_
 
 This is a community document based on contributions of
 informal test results 
 from the [theta360.guide independent community](https://www2.theta360.guide/).  This is
 not an official RICOH document.  For official information, please
-contact RICOH.  You should confirm these community tips with your
-own tests prior to deployment in a business setting.  As these are
+contact RICOH. You should confirm these community tips with your
+own tests prior to deployment in a business setting. As these are
 unofficial tips, the official RICOH THETA API may change unexpectedly
 and these techniques could stop working. 
 
@@ -19,23 +19,22 @@ When using the `NetworkSpecifier` function, API calls to the RICOH THETA fail.
 
 ## Credit and Thanks
 
-[Problem](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127?u=craig) and [solution](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127/6?u=craig) were reported by [saleh](https://community.theta360.guide/u/saleh/summary). Thanks.
+[Problem](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127?u=craig) and [solution](https://community.theta360.guide/t/solved-ricoh-theta-connection-issue-using-android-api-29/6127/6?u=craig) were reported by [saleh](https://community.theta360.guide/u/saleh/summary). Thank you!
 
 ## Changes to Google Play Store Requirements
 
 New Android apps must target Android 10, API level 29.  From November 2, 2020, app updates will also need
-to target API level 29.  Read [more](https://developer.android.com/distribute/best-practices/develop/target-sdk) on the Android developer site. 
+to target API level 29. Read [more](https://developer.android.com/distribute/best-practices/develop/target-sdk) on the Android developer site. 
 
 ![Google Play Target Requirements](images/api_target_requirements.png)
 
 ## Potential Impact on THETA Developers
 
-If your THETA app uses `WifiNetworkSpecifier` or `WifiNetworkSuggestion` when your customers' mobile phones connect to  RICOH THETA cameras in Wi-Fi in Access Point (AP) mode, you may need to adjust your application.
+If your THETA app uses `WifiNetworkSpecifier` or `WifiNetworkSuggestion` when your customers' mobile phones connect to RICOH THETA cameras in Wi-Fi in Access Point (AP) mode, you may need to adjust your application.
 
 ![Wi-Fi Restrictions](images/wifi_restrictions.png)
 
-Problem is apparent if your app reduces the Wi-Fi setup steps to enhance the experience for your staff
-or customers.
+Problem is apparent if your app reduces the Wi-Fi setup steps to enhance the experience for your staff or customers.
 
 ![Wi-Fi Archiecture](images/network_architecture.png)
 
@@ -106,5 +105,5 @@ This tip and many more SC2 developer articles are available on the
 Markdown to PDF conversion done with [Grip](https://github.com/joeyespo/grip). 
 
 __This is not an official RICOH document. It is produced by
-an independent community.  Please contact RICOH for official
+an independent community. Please contact RICOH for official
 information.__ 
