@@ -42,17 +42,17 @@ Problem is apparent if your app reduces the Wi-Fi setup steps to enhance the exp
 
 ```java
 final WifiNetworkSpecifier specifier = new WifiNetworkSpecifier.Builder()
-             //.setSsidPattern(new PatternMatcher(ssid, PatternMatcher.PATTERN_PREFIX))
-               .setSsid(ssid)
-               .setWpa2Passphrase(passPhrase)
-               .setBssid(MacAddress.fromString(i.BSSID))
-               .build();
+   //.setSsidPattern(new PatternMatcher(ssid, PatternMatcher.PATTERN_PREFIX))
+     .setSsid(ssid)
+     .setWpa2Passphrase(passPhrase)
+     .setBssid(MacAddress.fromString(i.BSSID))
+     .build();
                
 final NetworkRequest request = new NetworkRequest.Builder()
-                        .addTransportType(NetworkCapabilities.TRANSPORT_WIFI)
-                        .removeCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
-                        .setNetworkSpecifier(specifier)
-                        .build();
+    .addTransportType(NetworkCapabilities.TRANSPORT_WIFI)
+    .removeCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
+    .setNetworkSpecifier(specifier)
+    .build();
 
 final ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 
